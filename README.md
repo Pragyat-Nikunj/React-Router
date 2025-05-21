@@ -11,7 +11,7 @@ This project demonstrates a minimal React application using [Vite](https://vitej
 
 ## Live Demo
 
-Check out the live demo: [https://react-router-sepia-chi.vercel.app](https://react-router-sepia-chi.vercel.app/about)
+Check out the live demo: [https://react-router-sepia-chi.vercel.app](https://react-router-sepia-chi.vercel.app)
 
 ## Getting Started
 
