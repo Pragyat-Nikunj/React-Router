@@ -1,12 +1,101 @@
-# React + Vite
+# React Router Example with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a minimal React application using [Vite](https://vitejs.dev/) as the build tool and [React Router](https://reactrouter.com/) for client-side routing. It is intended as a starting point for building modern, fast, and maintainable single-page applications (SPAs) with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Fast development with Vite and Hot Module Replacement (HMR)
+- 🛣️ Client-side routing using React Router
+- 🧹 Basic ESLint configuration for code quality
+- 📦 Easy to extend and customize
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/react-router-vite-example.git
+   cd react-router-vite-example
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Development Server
+
+Start the local development server:
+
+```sh
+npm run dev
+# or
+yarn dev
+```
+
+Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+### Building for Production
+
+To create an optimized production build:
+
+```sh
+npm run build
+# or
+yarn build
+```
+
+The output will be in the `dist` directory.
+
+### Previewing the Production Build
+
+You can preview the production build locally:
+
+```sh
+npm run dev
+
+```
+
+## Project Structure
+
+```
+reactRouter/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+- `src/` contains the React source code.
+- `public/` contains static assets.
+- `vite.config.js` is the Vite configuration file.
+
+## Customization
+
+- Add new routes by editing `App.jsx` and using React Router's `<Route>` components.
+- Add new components in the `src/components/` directory.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/)
