@@ -9,6 +9,10 @@ This project demonstrates a minimal React application using [Vite](https://vitej
 - 🧹 Basic ESLint configuration for code quality
 - 📦 Easy to extend and customize
 
+## Live Demo
+
+Check out the live demo: [https://react-router-sepia-chi.vercel.app/about](https://react-router-sepia-chi.vercel.app/about)
+
 ## Getting Started
 
 ### Prerequisites
